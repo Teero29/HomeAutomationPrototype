@@ -1,4 +1,4 @@
 # HomeAutomationPrototype
 Tutorials for a home automation system
 
-Tutorial 1: Learn to connect sensors to an arduino
+Tutorial 1: Learn to connect sensors to an arduino, collect data
