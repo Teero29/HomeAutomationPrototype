@@ -35,4 +35,4 @@ you will have to type in the root password of your choice twice.
 From here you can continue to use the command line, but if you would prefer to use a window based desktop,
 
 type "startx" and you should have the following window appear:
-
+![RaspberryUI](https://user-images.githubusercontent.com/71849675/221509913-16800139-a48f-456e-aba3-9450b3d5104f.png)
