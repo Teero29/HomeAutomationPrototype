@@ -8,3 +8,4 @@ Most sensors have a pin for Ground (marked as G or GND), a pin for V and another
 
 We will use Arduino IDE to make the code for the arduino/ESP and read the data collected from the sensors. The IDE looks like following:
 
+![arduino-ide-interface](https://user-images.githubusercontent.com/71849675/221505337-55f96a7f-3638-4bc7-b631-c6858ef9aecb.png)
