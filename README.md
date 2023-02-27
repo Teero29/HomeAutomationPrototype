@@ -3,7 +3,7 @@ Tutorials for a home automation system
 
 Tutorial 2: Emulating a Raspberry Pi on your computer and using it to do various tasks
 
-There are multiple solutions to emulating a Rapberry Pi on a computer. We will discuss two methods: QEMU and Virtual Box.
+There are multiple solutions to emulating a Rapberry Pi on a computer. We will discuss two methods: QEMU and Oracle Virtual Box.
 
 Method 1: QEMU
 - Download the file from the following link: https://sourceforge.net/projects/rpiqemuwindows/ 
@@ -36,3 +36,6 @@ From here you can continue to use the command line, but if you would prefer to u
 
 type "startx" and you should have the following window appear:
 ![RaspberryUI](https://user-images.githubusercontent.com/71849675/221509913-16800139-a48f-456e-aba3-9450b3d5104f.png)
+
+
+Method 2: Using Oracle Virtual Box
