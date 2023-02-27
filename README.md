@@ -39,3 +39,6 @@ type "startx" and you should have the following window appear:
 
 
 # 2. Bluetooth code for Arduino
+link used : https://www.uugear.com/portfolio/bluetooth-communication-between-raspberry-pi-and-arduino/ 
+```
+- Still need to test it 
