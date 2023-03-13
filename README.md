@@ -1,7 +1,7 @@
 # HomeAutomationPrototype
 Tutorials for a home automation system
 
-Tutorial 2: Sending and recieving signals with bluetooth to an Arduino
+Tutorial 3: Sending and recieving signals with bluetooth to an Arduino
 We will learn to connect a bluetooth module to an arduino and connect to it, and use it
 
 # 1. Connecting the module to Arduino
