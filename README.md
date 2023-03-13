@@ -3,7 +3,7 @@ Tutorials for a home automation system
 
 Tutorial 2: Emulating a Raspberry Pi on your computer and using it to do various tasks
 
-There are multiple solutions to emulating a Rapberry Pi on a computer. We will use a prepared QEMU file.
+There are multiple solutions to emulating a Rapberry Pi on a computer. We will use two different methods: a prepared QEMU file and Virtual Box.
 
 # 1. Installing QEMU
 - Download the file from the following link: https://sourceforge.net/projects/rpiqemuwindows/ 
@@ -37,7 +37,6 @@ and you should have the following window appear:
 ![RaspberryUI](https://user-images.githubusercontent.com/71849675/221509913-16800139-a48f-456e-aba3-9450b3d5104f.png)
 
 
-# 2. Bluetooth code for Arduino
-link used : https://www.uugear.com/portfolio/bluetooth-communication-between-raspberry-pi-and-arduino/ 
-```
-- Still need to test it 
+# 2. Setting up Virtual Box 
+
+/////////////////////////////////////
