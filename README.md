@@ -39,4 +39,4 @@ and you should have the following window appear:
 
 # 2. Setting up Virtual Box 
 
-/////////////////////////////////////
+Follow this tutorial: https://roboticsbackend.com/install-raspbian-desktop-on-a-virtual-machine-virtualbox/
