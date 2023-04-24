@@ -10,7 +10,7 @@ There are multiple solutions to emulating a Rapberry Pi on a computer. In this t
 - Run the run.bat file
 This only works on computers running Windows.
 
-On running for the first time you will see a configuration screen  
+On running for the first time you will see a configuration screen.  
 The arrow keys take you up and down the list, enter or return selects an item to change
 Tab (above Caps Lock key) gets you down to the two options at the bottom so you can finish.
 
@@ -35,6 +35,7 @@ From here you can continue to use the command line, but if you would prefer to u
 and you should have the following window appear:
 ![RaspberryUI](https://user-images.githubusercontent.com/71849675/221509913-16800139-a48f-456e-aba3-9450b3d5104f.png)
 
+From here on you can use the emulated version of a raspberry pi for your needs. In our case, we want to install Docker inside this emulated version but I was not able to do so. I posted this problem on the following forum in hopes of a response: 
 
 # 2. Setting up Virtual Box 
 
