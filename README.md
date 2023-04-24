@@ -50,27 +50,35 @@ From here on you can use the emulated version of a raspberry pi for your needs. 
 2. Click on the “New” button to create a new virtual machine: 
 
 ![create_vm_step1](https://user-images.githubusercontent.com/71849675/233925612-fe12988e-941a-4e9b-9bf1-b60970492550.png)
+
 3. Choose a name for your vm and the type: 
 
 ![create_vm_name_step2](https://user-images.githubusercontent.com/71849675/233925609-60046356-23e4-4c2e-b434-8ec2f1dc778c.png)
+
 4. Allocate the right amount of RAM. I allocated more RAM to accelerate my work but you can emulate a real Raspberry Pi and put 1GB instead: 
 
 ![create_vm_allocate_ram_step3](https://user-images.githubusercontent.com/71849675/233925606-2ac97de3-2697-4589-adc7-4d1e46c4d43f.png)
+
 5. Create a virtual hard disk:
 
 ![create_vm_hard_disk_part4](https://user-images.githubusercontent.com/71849675/233925604-bf014331-9dd1-4fdc-a8f1-44ec8ba9f59c.png)
+
 6. Choose enough space for the disk:
 
 ![create_vm_hard_disk_size_part5](https://user-images.githubusercontent.com/71849675/233925603-b324ba65-5bf8-4509-b14c-b357c65dee93.png)
+
 7. After this, your vm should be ready but we need to do some extra steps like allocating CPUs for our VM. Go into the setting of your VM and you want to speed up your processes, you can add more CPUs:
 
 ![create_vm_allocate_cpus_step3_2](https://user-images.githubusercontent.com/71849675/233925601-ce6d80ae-659b-4b09-9102-cddc6d2487ee.png)
+
 8. At last, in the settings, associate the Raspberry Pi OS Desktop ISO file to your Virtual Machine:
 
 ![create_vm_choose_iso_part6](https://user-images.githubusercontent.com/71849675/233925600-ce46d5ac-ad44-4e4e-a0ec-598a942f1beb.png)
+
 9. Follow the normal installation process for a raspberry pi and you should arrive at the following screen:
 
 ![raspbian_desktop_welcome_screen](https://user-images.githubusercontent.com/71849675/233925596-5fb64b47-20af-4810-85d6-2fdd08bb7e1c.png)
+
 
 
 
