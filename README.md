@@ -1,6 +1,6 @@
 # HomeAutomationPrototype
 
-Tutorial 3: Sending and recieving signals with bluetooth to an Arduino
+# Tutorial 4: Sending and recieving signals with bluetooth between Arduino and Raspberry Pi
 In the first tutorial we saw how to manage sensors and the data captured by them. Now we will learn to send this data. First, we will look at the Arduino side.
 
 # 1. Connecting the module to Arduino
