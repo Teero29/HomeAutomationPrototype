@@ -39,4 +39,20 @@ From here on you can use the emulated version of a raspberry pi for your needs. 
 
 # 2. Setting up Virtual Box 
 
+1. Install Virtual Box on your PC.
+2. Click on the “New” button to create a new virtual machine:
+https://roboticsbackend.com/wp-content/uploads/2020/01/create_vm_step1.png
+3. Choose a name for your vm and the type:
+https://roboticsbackend.com/wp-content/uploads/2020/01/create_vm_name_step2.png
+4. Allocate the right amount of RAM. I allocated more RAM to accelerate my work but you can emulate a real Raspberry Pi and put 1GB instead:
+https://roboticsbackend.com/wp-content/uploads/2020/01/create_vm_allocate_ram_step3.png
+5. Create a virtual hard disk:
+https://roboticsbackend.com/wp-content/uploads/2020/01/create_vm_hard_disk_part4.png
+6. Choose enough space for the disk:
+https://roboticsbackend.com/wp-content/uploads/2020/01/create_vm_hard_disk_size_part5.png
+7.
 Follow this tutorial: https://roboticsbackend.com/install-raspbian-desktop-on-a-virtual-machine-virtualbox/
+
+
+
+
