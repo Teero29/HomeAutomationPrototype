@@ -2,7 +2,7 @@
 
 Tutorial 2: Emulating a Raspberry Pi on your computer and using it to do various tasks
 
-There are multiple solutions to emulating a Rapberry Pi on a computer. We will use two different methods: a prepared QEMU file and Virtual Box.
+There are multiple solutions to emulating a Rapberry Pi on a computer. In this tutorial, we will use two different methods: a prepared QEMU file and Virtual Box.
 
 # 1. Installing QEMU
 - Download the file from the following link: https://sourceforge.net/projects/rpiqemuwindows/ 
