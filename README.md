@@ -3,6 +3,7 @@
 Tutorial 2: Emulating a Raspberry Pi on your computer and using it to do various tasks
 
 There are multiple solutions to emulating a Rapberry Pi on a computer. In this tutorial, we will explore two different methods: a prepared QEMU file and Virtual Box.
+For more advanced users, you can directly download a debian image from DockerHub and use Docker to emulate a raspberry Pi. This method is much more direct but requires some base knowledge of using Docker and the Linux command line UI.
 
 # 1. Installing QEMU
 - Download the file from the following link: https://sourceforge.net/projects/rpiqemuwindows/ 
