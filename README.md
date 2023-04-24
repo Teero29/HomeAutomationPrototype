@@ -1,11 +1,12 @@
 # HomeAutomationPrototype
-Tutorials for a home automation system
 
 Tutorial 3: Sending and recieving signals with bluetooth to an Arduino
-We will learn to connect a bluetooth module to an arduino and connect to it, and use it
+In the first tutorial we saw how to manage sensors and the data captured by them. Now we will learn to send this data. First, we will look at the Arduino side.
 
 # 1. Connecting the module to Arduino
 ![10](https://user-images.githubusercontent.com/71849675/223050772-c6e99949-173d-45e3-9056-8149e7c54667.jpg)
 
 # 2. Setting up the code
-The given code can read data sent from other devices and also send data 
+The code in this branch lets us write(send) and read(receive) data through bluetooth on an arduino.
+
+# 3. Using bluetooth on a Raspberry Pi (in Python)
