@@ -45,10 +45,10 @@ From here on you can use the emulated version of a raspberry pi for your needs. 
 
 
 
-![create_vm_step1](https://user-images.githubusercontent.com/71849675/233925612-fe12988e-941a-4e9b-9bf1-b60970492550.png)
+
 1. Install Virtual Box on your PC.
 2. Click on the “New” button to create a new virtual machine:
-https://roboticsbackend.com/wp-content/uploads/2020/01/create_vm_step1.png
+![create_vm_step1](https://user-images.githubusercontent.com/71849675/233925612-fe12988e-941a-4e9b-9bf1-b60970492550.png)
 3. Choose a name for your vm and the type:
 ![create_vm_name_step2](https://user-images.githubusercontent.com/71849675/233925609-60046356-23e4-4c2e-b434-8ec2f1dc778c.png)
 4. Allocate the right amount of RAM. I allocated more RAM to accelerate my work but you can emulate a real Raspberry Pi and put 1GB instead:
