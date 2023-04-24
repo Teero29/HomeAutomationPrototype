@@ -12,4 +12,4 @@ We will use Arduino IDE to make the code for the arduino/ESP and read the data c
 
 I will not be showing how to run code on an arduino. For those who need help with this task, here is a link to a guide: https://support.arduino.cc/hc/en-us/articles/4733418441116-Upload-a-sketch-in-Arduino-IDE 
 
-
+The code samples provided in this branch will allow you to connect to some of the existing sensors, read their data and print it in the console.
