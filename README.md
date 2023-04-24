@@ -1,7 +1,7 @@
 # HomeAutomationPrototype
-Tutorials for a home automation system
+This repository is a series of tutorials that will help you build your own Smart Home automation system. 
 
-Tutorial 1: Learn to connect sensors to an arduino, collect data
+Tutorial 1: Learn to connect sensors to an arduino and collect data with them.
 
 Most sensors have a pin for Ground (marked as G or GND), a pin for VCC and another for the data. They can be connected as following (DHT11 used as example):
 ![Arduino-DHT11-Tutorial-3-Pin-DHT11-Wiring-Diagram](https://user-images.githubusercontent.com/71849675/221504377-7ddafa77-c8d8-4efc-8c06-64518d7589f1.png)
