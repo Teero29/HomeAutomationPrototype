@@ -39,13 +39,6 @@ From here on you can use the emulated version of a raspberry pi for your needs. 
 
 # 2. Setting up Virtual Box 
 
-
-
-
-
-
-
-
 1. Install Virtual Box on your PC.
 2. Click on the “New” button to create a new virtual machine: 
 
@@ -80,6 +73,7 @@ From here on you can use the emulated version of a raspberry pi for your needs. 
 ![raspbian_desktop_welcome_screen](https://user-images.githubusercontent.com/71849675/233925596-5fb64b47-20af-4810-85d6-2fdd08bb7e1c.png)
 
 
-
+# 3. Using the Raspberry PI
+In both cases, you should be able to do pretty much everything you can with a normal Raspberry Pi (except have access to the hardware ofcourse). What we want by doing this is to put all the needed scripts and programms on the emulated Raspberry Pi without having access to one. 
 
 
