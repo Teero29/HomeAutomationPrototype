@@ -50,7 +50,12 @@ https://roboticsbackend.com/wp-content/uploads/2020/01/create_vm_allocate_ram_st
 https://roboticsbackend.com/wp-content/uploads/2020/01/create_vm_hard_disk_part4.png
 6. Choose enough space for the disk:
 https://roboticsbackend.com/wp-content/uploads/2020/01/create_vm_hard_disk_size_part5.png
-7.
+7. After this, your vm should be ready but we need to do some extra steps like allocating CPUs for our VM. Go into the setting of your VM and you want to speed up your processes, you can add more CPUs:
+https://roboticsbackend.com/wp-content/uploads/2020/01/create_vm_allocate_cpus_step3_2.png
+8. At last, in the settings, associate the Raspberry Pi OS Desktop ISO file to your Virtual Machine:
+https://roboticsbackend.com/wp-content/uploads/2020/01/create_vm_choose_iso_part6.png
+9. Follow the normal installation process for a raspberry pi and you should arrive at the following screen:
+https://roboticsbackend.com/wp-content/uploads/2020/01/raspbian_desktop_welcome_screen.png
 Follow this tutorial: https://roboticsbackend.com/install-raspbian-desktop-on-a-virtual-machine-virtualbox/
 
 
