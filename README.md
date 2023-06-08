@@ -14,3 +14,17 @@ In conclusion, Docker will allow us to develop the required application on any d
 
 # Tutorial 3: Installing Docker on Raspberry Pi 32bits 
 
+First we need to update our device:
+
+$ sudo apt update
+$ sudo apt upgrade
+
+![1](https://github.com/Mogreine29/HomeAutomationPrototype/assets/71849675/3ed35a87-eef8-4246-aa43-6dd53631e490)
+
+
+Next we need to download the executable and install Docker:
+
+$ curl -fsSL https://get.docker.com -o get-docker.sh
+$ sudo sh get-docker.sh
+
+![2](https://github.com/Mogreine29/HomeAutomationPrototype/assets/71849675/e9d555b4-4bdd-4c89-92c5-802961e19c88)
