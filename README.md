@@ -70,3 +70,30 @@ Build the Docker image by running the following command in the project directory
 docker build -t myproject .
 ```
 
+2. Run a Docker Container
+
+Once the image is built, you can create and run a container from it.
+Execute the following command to start a container from your image:
+```
+docker run -d -p 8000:8000 myproject
+```
+This command runs the container in detached mode (-d), maps port 8000 from the container to the host (-p), and uses the image named "myproject."
+
+3. Interact with the Container
+
+You can interact with your container using various Docker commands:
+
+To see the running containers:
+```
+docker ps
+```
+To access the container's shell (Replace <container_id> with the actual container ID obtained from the 'docker ps' command.):
+```
+docker exec -it <container_id> /bin/bash
+```
+To stop a running container:
+```
+docker stop <container_id>
+```
+
+This is a basic overview, and Docker offers many more advanced features and options for building, managing, and deploying containers. I recommend referring to the official Docker documentation for more in-depth tutorials and guidance.
