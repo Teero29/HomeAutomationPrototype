@@ -45,6 +45,7 @@ void loop() {
   float new_humidity = dht.readHumidity();
   
   if (new_temperature>=temperature*1.1 or new_temperature<=temperature*0.9) {
+    temperature = new_temperature;
     Serial.print("Temperature: ");
     Serial.print(temperature);
     Serial.print("°C ");
