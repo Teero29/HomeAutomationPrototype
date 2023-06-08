@@ -10,3 +10,6 @@ In the first tutorial we saw how to manage sensors and the data captured by them
 The code provided in BT_v2.ino lets us write(send) and read(receive) data through bluetooth on an arduino.
 
 # 3. Using bluetooth on a Raspberry Pi (in Python)
+
+The BT.py file gives an example of retrieving data through bluetooth in python. There are many other examples. We will use this method because we will be working with Flash and sqlite.
+Refer to the the Final Example for a precise use-case of the program.
