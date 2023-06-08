@@ -10,5 +10,7 @@ Why Docker? Overall there are many reasons and the most important ones in our ca
 
 4. Dependency Management: With Docker, you can package all the required dependencies within the container image. This eliminates the need for manual dependency installation on the host system, reducing the risk of version conflicts or configuration issues.
 
+In conclusion, Docker will allow us to develop the required application on any device and then simply transport in onto our Raspberry Pi without having to install anything but Docker on that Raspberry Pi. We can then run the complete application on the device. Additionally, we can repeat this on as many devices as we want. 
+
 # Tutorial 3: Installing Docker on Raspberry Pi 32bits 
 
