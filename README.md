@@ -15,18 +15,58 @@ In conclusion, Docker will allow us to develop the required application on any d
 # Tutorial 3: Installing Docker on Raspberry Pi 32bits 
 
 First we need to update our device:
-
+```
 $ sudo apt update
 
 $ sudo apt upgrade
-
+```
 ![1](https://github.com/Mogreine29/HomeAutomationPrototype/assets/71849675/3ed35a87-eef8-4246-aa43-6dd53631e490)
 
 
 Next we need to download the executable and install Docker:
-
+```
 $ curl -fsSL https://get.docker.com -o get-docker.sh
 
 $ sudo sh get-docker.sh
-
+```
 ![2](https://github.com/Mogreine29/HomeAutomationPrototype/assets/71849675/e9d555b4-4bdd-4c89-92c5-802961e19c88)
+
+
+# How to use Docker
+
+1. Build a Docker Image
+
+Create a new directory for your project and navigate to it in your terminal or command prompt.
+
+Create a file named "Dockerfile" (no file extension) in the project directory.
+
+Open the Dockerfile in a text editor and define the instructions to build your Docker image. For example:
+```
+# Use a base image
+FROM python:3.9
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy the project files to the working directory
+COPY . /app
+
+# Install project dependencies
+RUN pip install -r requirements.txt
+
+# Expose a port (if needed)
+EXPOSE 8000
+
+# Specify the command to run your application
+CMD ["python", "app.py"]
+
+```
+
+
+Save the Dockerfile and create a file named "requirements.txt" if your project has Python dependencies. List the required packages line by line in this file.
+
+Build the Docker image by running the following command in the project directory (Replace "myproject" with a suitable name for your image.):
+```
+docker build -t myproject .
+```
+
