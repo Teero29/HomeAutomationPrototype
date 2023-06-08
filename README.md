@@ -7,6 +7,6 @@ In the first tutorial we saw how to manage sensors and the data captured by them
 ![10](https://user-images.githubusercontent.com/71849675/223050772-c6e99949-173d-45e3-9056-8149e7c54667.jpg)
 
 # 2. Setting up the code
-The code in this branch lets us write(send) and read(receive) data through bluetooth on an arduino.
+The code provided in BT_v2.ino lets us write(send) and read(receive) data through bluetooth on an arduino.
 
 # 3. Using bluetooth on a Raspberry Pi (in Python)
