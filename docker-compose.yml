@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  sqlite3:
+    container_name: sqlite3_container
+    image: nouchka/sqlite3:latest
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./db/:/root/db/
+    ports:
+      - '9000:9000' # expose ports - HOST:CONTAINER
+    restart: unless-stopped
+
+
+  app:
+    image: tyemur/webserver:latest
+    ports:
+      - 8080:8080
+    volumes:
+      - ./:/app
+      - ./db/:/app/db/

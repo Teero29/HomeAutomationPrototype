@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature sensor</title>
+  <link type="text/css" rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+  <script src="{{url_for('static', filename='js/socket.io.min.js')}}"></script>
+  <script src="{{url_for('static', filename='js/main.js')}}"></script>
+</head>
+<body>
+  <table id="main">
+    <th>Date</th>
+    <th>Temperature <a href="/clear">Clear data</a></th>
+    {%- for d in data %}
+    <tr>
+      <td>{{ d['date'] }}</td>
+      <td>{{ d['temperature'] }}</td>
+    </tr>
+    {%- endfor %}
+  </table>
+</body>
+</html>
