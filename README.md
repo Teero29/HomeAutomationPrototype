@@ -23,6 +23,11 @@ The file final_arduino.ino contains the final code that I use for example. We ar
 4. PIR Motion sensor 
 5. Servo motor
 
+Here is what it looks like:
+
+![image](https://github.com/Mogreine29/HomeAutomationPrototype/assets/71849675/55f2f18c-6caf-4fc4-8d22-6e6b5266494b)
+
+
 ## Raspberry Pi
 I am using a Flask, sqlite3 in Python to create my web-app. The code is provided in this section above. 
 I will not be explaining the python part of this project because this is not the aim of this tutorial. I will explain more about the use of Docker in this case. 
