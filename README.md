@@ -28,3 +28,47 @@ I am using a Flask, sqlite3 in Python to create my web-app. The code is provided
 I will not be explaining the python part of this project because this is not the aim of this tutorial. I will explain more about the use of Docker in this case. 
 The Dockerfile provided lets us deploy this mini-project directly just by pulling the image from Docker Hub and then building it and starting the container.
 I will go step-by-step here to explain this procedure:
+
+1. With Docker installed on our Raspberry Pi, we develop our app: webserver, db
+2. Create seperate folders for each part: flask app and db
+3. Create a Dockerfile for the app with the following contents. 
+```
+FROM python:3.10-alpine
+WORKDIR /iot_app
+COPY requirements.txt ./
+RUN pip3 install --no-cache-dir -r requirements.txt
+COPY static/ ./static/
+COPY templates/ ./templates/
+COPY app.py ./
+
+CMD ["python3","./app.py"]
+```
+We are using this file to pull an image of Python and install all the necessery dependencies for our project. This is the beauty of Docker.
+P.S: You will need a requirements.txt file with all the dependencies needed.
+
+4. We can create a YAML file that will let us compose our dockerized app:
+
+```
+version: "3.8"
+
+services:
+  sqlite3:
+    container_name: sqlite3_container
+    image: nouchka/sqlite3:latest
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./db/:/root/db/
+    ports:
+      - '9000:9000' # expose ports - HOST:CONTAINER
+    restart: unless-stopped
+
+
+  app:
+    image: tyemur/webserver:latest
+    ports:
+      - 8080:8080
+    volumes:
+      - ./:/app
+      - ./db/:/app/db/
+```
