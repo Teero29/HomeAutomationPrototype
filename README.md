@@ -72,3 +72,14 @@ services:
       - ./:/app
       - ./db/:/app/db/
 ```
+
+5. At last, use the following command to build the app:
+
+```
+docker compose up
+```
+
+6. You can visit your app at localhost:8080!
+
+Here is the result for our simple case:
+![image](https://github.com/Mogreine29/HomeAutomationPrototype/assets/71849675/1c8adf28-db32-46b2-bce0-87a870435525)
